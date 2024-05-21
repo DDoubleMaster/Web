@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles.css">
+
+    <title>COMFY.</title>
+</head>
+
+<body>
+
+    <!-- Шапка -->
+    <header>
+        <!-- Блок для логотипа -->
+        <div class="header__logo">
+            <h2>COMFY.</h2>
+        </div>
+        <!-- /Блок для логотипа -->
+
+        <!-- Меню для мобильной версии -->
+        <input type="button" class="header__mobile" value="=" />
+        <!-- /Меню для мобильной версии -->
+
+        <!-- Блок для меню навигации -->
+        <ul class="header__menu">
+            <li>
+                <a class="link" href="index.html">Главная</a>
+            </li>
+            <li>
+                <a class="link" href="">Описание</a>
+            </li>
+            <li>
+                <a class="link" href="product_list.html">Категории</a>
+            </li>
+            <li>
+                <a class="link" href="basket.html">Корзина</a>
+            </li>
+        </ul>
+        <!-- /Блок для меню навигации -->
+
+        <!-- Блок для авторизации -->
+        <div class="header__auth">
+            <a href="basket.html" class="button">Корзина</a>
+            <a class="link" href="profile.html">Алекс</a>
+        </div>
+        <!-- /Блок для авторизации -->
+    </header>
+    <!-- /Шапка -->
+
+    <!-- Заголовок секции -->
+    <section class="title__section_one">
+        <h2>Корзина</h2>
+    </section>
+    <!-- /Заголовок секции -->
+
+    <!-- Список товаров -->
+    <div class="basket__list">
+
+        <div class="basket__list__product">
+            <div class="basket__list__product__left">
+                <img src="./assets/images/suv1.jpg" alt="image">
+                <h2>Сувенир 1</h2>
+            </div>
+            <span class="basket__list__product__right">
+                        8$
+                  </span>
+        </div>
+
+        <div class="basket__list__product">
+            <div class="basket__list__product__left">
+                <img src="./assets/images/suv2.jpg" alt="image">
+                <h2>Сувенир 2</h2>
+            </div>
+            <span class="basket__list__product__right">
+                        10$
+                  </span>
+        </div>
+
+    </div>
+    <!-- /Список товаров -->
+
+    <!-- Общая сумма -->
+    <div class="basket__count">
+        <span>18$</span>
+    </div>
+    <!-- /Общая сумма -->
+
+    <!-- Форма -->
+    <form action="" method="post">
+
+        <h2>Отправить заказ</h2>
+
+        <div class="form__row">
+            <div class="form__field">
+                <label for="">ФИО:</label>
+                <input type="text" placeholder="ФИО" required />
+            </div>
+            <div class="form__field">
+                <label for="">Email:</label>
+                <input type="email" placeholder="Email" required />
+            </div>
+        </div>
+
+        <div class="form__row">
+            <div class="form__field">
+                <label for="">Телефон:</label>
+                <input type="phone" placeholder="Телефон" required />
+            </div>
+            <div class="form__field">
+                <label for="">Аддресс:</label>
+                <input type="text" placeholder="Аддресс" required />
+            </div>
+        </div>
+
+        <div class="form__field">
+            <label for="">Выберите метод оплаты:</label>
+            <select name="" id="">
+                        <option value="" selected disabled>Выберите метод оплаты</option>
+                        <option value="">Карточка</option>
+                        <option value="">Paypal</option>
+                  </select>
+        </div>
+
+        <a href="order.html" class="button">Подтвердить заказ</a>
+    </form>
+    <!-- /Форма -->
+
+    <!-- Подвал сайта -->
+    <footer>
+        <!-- Блок для меню навигации -->
+        <ul class="footer__left">
+            <li>
+                <a class="link" href="">Facebook</a>
+            </li>
+            <li>
+                <a class="link" href="">Instagram</a>
+            </li>
+            <li>
+                <a class="link" href="">Pinterest</a>
+            </li>
+            <li>
+                <a class="link" href="">Telegram</a>
+            </li>
+        </ul>
+        <!-- /Блок для меню навигации -->
+
+        <div class="footer__right">
+            <a href="tel:" class="link">+1(111)111-11-11</a>
+        </div>
+    </footer>
+    <!-- / Подвал сайта -->
+
+</body>
+
+</html>
